@@ -20,7 +20,7 @@ cities("Pune", "Goa")
 try:
   f = open("simple.txt", 'r')
   data = f.read()
-  print("Trying\n")
+  print("Trying")
 except:
   print("Fiddlesticks! Failed")
 finally:
@@ -28,13 +28,14 @@ finally:
   print("All Done")
   
 #output
-'''Trying
+'''
 Hiiiiiiiiiiiii Everyone!
 saikiran sir teach us very good.
 I m very thankful of sir that he started this free course,and
 spreading the knowledge to everyone.
 The way u teach us,we lyk very much.
 Thanku sir!
+Trying
 Finally!
 All Done
 '''
